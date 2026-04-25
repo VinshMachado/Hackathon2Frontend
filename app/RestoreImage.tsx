@@ -53,7 +53,7 @@ function CanvasImage({ Url, seed }: { Url: string; seed: number }) {
   }, [Url]);
 
   return (
-    <div>
+    <div className=" flex justify-center items-center">
       <canvas ref={canvasRef} className="border border-black w-1/2 h-auto" />
     </div>
   );
